@@ -6,3 +6,32 @@ body {
 a {
   color: #00B7FF;
 }
+
+.footer {
+  background-color: yellowgreen;
+}
+
+.navbar {
+  background-color: blueviolet; 
+  /* height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px; */
+}
+
+.logobox {
+  background-color: red;
+}
+
+.menubox {
+  background-color: peachpuff;
+}
+
+.iconbox {
+  background-color: blue;
+}
