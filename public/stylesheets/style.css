@@ -15,19 +15,33 @@ a {
   background-color: blueviolet; 
 }
 
+.nav-link {
+  color: black;
+}
+
 .logobox {
-  background-color: red;
+  /* background-color: red; */
   max-width: 90%;
 }
 
 .menubox {
-  background-color: peachpuff;
+  /* background-color: peachpuff; */
   max-width: 90%;
 }
 
 .iconbox {
-  background-color: blue;
+  /* background-color: palegoldenrod; */
+  /* color: black; */
   max-width: 90%;
+}
+
+/* makes the social media icons black instead of blue */
+.fa {
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
 
 /* this makes it so that the photo will take up all of the card */
@@ -37,12 +51,12 @@ a {
 
 /* this controls the space between columns */
 .no-gutter-card-deck.card-columns {
-  column-gap: 1;
+  column-gap: 5px;
 }
 
 /* this controls the space between pictures */
 .no-gutter-card-deck > .card {
-  margin: 1;
+  margin: 4px;
 }
 
 /* I needed these to specify how many columns can be displayed on any given screen size
@@ -82,24 +96,20 @@ figure out what webkit and moz are later  */
 
 
 #stickySidebar {
-  background-color: black;
+  /* background-color: black; */
   position: fixed;  
   max-width: 15%;
   height: 100%;
 }
 
 #columnThree {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   max-width: 18%;
 }
 
 /* #body {
   background-color: maroon;
 } */
-
-#card-column {
-  background-color: pink;
-}
 
 /* #photoColumnOne{
   background-color: darkgoldenrod;
