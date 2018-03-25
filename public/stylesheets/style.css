@@ -30,6 +30,57 @@ a {
   max-width: 90%;
 }
 
+/* this makes it so that the photo will take up all of the card */
+.photoCard {
+  max-width: 100px;
+}
+
+/* this controls the space between columns */
+.no-gutter-card-deck.card-columns {
+  column-gap: 1;
+}
+
+/* this controls the space between pictures */
+.no-gutter-card-deck > .card {
+  margin: 1;
+}
+
+/* I needed these to specify how many columns can be displayed on any given screen size
+figure out what webkit and moz are later  */
+@media (min-width: 576px) {
+  .card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+      -webkit-column-count: 4;
+      -moz-column-count: 4;
+      column-count: 4;
+  }
+}
+
+@media (min-width: 1200px) {
+  .card-columns {
+      -webkit-column-count: 4;
+      -moz-column-count: 4;
+      column-count: 4;
+  }
+}
+
+
+
 #stickySidebar {
   background-color: black;
   position: fixed;  
@@ -37,11 +88,31 @@ a {
   height: 100%;
 }
 
-#columnFour {
+#columnThree {
   background-color: aquamarine;
   max-width: 18%;
 }
 
-#body {
+/* #body {
   background-color: maroon;
+} */
+
+#card-column {
+  background-color: pink;
 }
+
+/* #photoColumnOne{
+  background-color: darkgoldenrod;
+}
+
+#photoColumnTwo{
+  background-color: lavender;
+}
+
+#photoColumnThree{
+  background-color: palevioletred;
+}
+
+#photoColumnFour{
+  background-color: pink;
+} */
